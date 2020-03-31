@@ -1,6 +1,6 @@
 # fuminaokishimoto.github.io
 
-> Fuminao Kishimoto web page
+> Fuminao Kishimoto Web Page
 
 ## Build Setup
 

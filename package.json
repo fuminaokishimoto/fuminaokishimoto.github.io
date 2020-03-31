@@ -1,7 +1,7 @@
 {
   "name": "fuminaokishimoto.github.io",
   "version": "1.0.0",
-  "description": "Fuminao Kishimoto web page",
+  "description": "Fuminao Kishimoto Web Page",
   "author": "suecharo",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
