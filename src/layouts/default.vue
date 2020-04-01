@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content class="background">
       <v-container>
         <nuxt />
       </v-container>
@@ -9,7 +9,12 @@
 </template>
 
 <script>
-export default {
-  data() {}
-}
+export default {}
 </script>
+
+<style>
+.background {
+  background-image: url('~assets/background.png');
+  background-repeat: repeat;
+}
+</style>
