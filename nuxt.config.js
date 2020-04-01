@@ -17,7 +17,12 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://polyfill.io/v3/polyfill.js?features=es5,es6,es7'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
