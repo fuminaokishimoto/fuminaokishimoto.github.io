@@ -21,4 +21,4 @@ ENV PORT 3000
 EXPOSE 3000
 
 ENTRYPOINT ["tini", "--"]
-CMD ["yarn", "dev"]
+CMD ["tail", "-f", "/dev/null"]
