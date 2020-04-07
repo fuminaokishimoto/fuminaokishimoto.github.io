@@ -8,14 +8,14 @@
         <template v-if="$vuetify.breakpoint.smAndUp">
           <div class="d-flex mr-2">
             <div class="text-center" style="width: 80px">{{ item.from }}</div>
-            <div>〜</div>
+            <div>-</div>
             <div class="text-center" style="width: 80px">{{ item.to }}</div>
           </div>
         </template>
         <template v-else>
           <div class="d-flex-row mr-2">
             <div class="text-center" style="width: 80px">{{ item.from }}</div>
-            <div class="text-center" style="width: 80px">〜</div>
+            <div class="text-center" style="width: 80px">-</div>
             <div class="text-center" style="width: 80px">{{ item.to }}</div>
           </div>
         </template>
