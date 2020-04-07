@@ -67,21 +67,11 @@
     }
   ],
   "award": [
-    {
-      "year": "Feb.2019",
-      "contents": [
-        "Seiichi Tejima Doctoral Dissertation Award (Tokyo Institute of Technology)"
-      ]
-    },
-    {
-      "year": "Sep.2018",
-      "contents": [
-        "The 5th Annual UK-Japan Engineering Education League Award, First Prize."
-      ]
-    }
+      "Feb.2019, Seiichi Tejima Doctoral Dissertation Award (Tokyo Institute of Technology)",
+      "Sep.2018, The 5th Annual UK-Japan Engineering Education League Award, First Prize."
   ],
   "grant": [
-      "2019-2020, Grant-in-Aid for Challenging Research(Exploratory), 「半導体ナノシートのヘテロ接合に立脚した新たな触媒設計法の開拓」, Japan Society for the Promotion of Science, 6,370,000 JPY",
-      "2018-2020, Grant-in-Aid for JSPS Fellows, 「三重項励起状態の多重衝突に立脚した長波長応答性の水分解用ゼオライト光触媒の創出」, Japan Society for the Promotion of Science, 11,700,000 JPY"
+      "Grant-in-Aid for Challenging Research(Exploratory), 「半導体ナノシートのヘテロ接合に立脚した新たな触媒設計法の開拓」, 2019-2020, Japan Society for the Promotion of Science, 6,370,000 JPY",
+      "Grant-in-Aid for JSPS Fellows, 「三重項励起状態の多重衝突に立脚した長波長応答性の水分解用ゼオライト光触媒の創出」,　2018-2020, Japan Society for the Promotion of Science, 11,700,000 JPY"
   ]
 }
