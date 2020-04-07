@@ -72,8 +72,18 @@
     "Sep.2018: The 5th Annual UK-Japan Engineering Education League Award, First Prize."
     "Aug.2016: AEARU 6th Energy and Environmental Workshop, Best Poster Award, 1st Prize"
     },
-  "grant": [
+  "grants": [
     {
-    "Grant-in-Aid for Challenging Research(Exploratory), Japan Society for the Promotion of Science, 2019-2020, 6,370,000 JPY"
-    "JSPS Postdoctoral Fellow"
+      "year": "2019-2020",
+      "type": "Grant-in-Aid for Challenging Research(Exploratory), Japan Society for the Promotion of Science",
+      "title": "半導体ナノシートのヘテロ接合に立脚した新たな触媒設計法の開拓"
+      "Budget Amount": "6,370,000 JPY",
+      
     },
+    {
+      "year": "2018-2020",
+      "type": "Grant-in-Aid for Challenging Research(Exploratory), Japan Society for the Promotion of Science",
+      "title": "三重項励起状態の多重衝突に立脚した長波長応答性の水分解用ゼオライト光触媒の創出"
+      "Budget Amount": "11,700,000 JPY",
+    }
+  ],
