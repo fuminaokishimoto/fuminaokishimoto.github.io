@@ -3,6 +3,7 @@
     <h2 class="title mb-2">
       Publications [<a
         href="https://scholar.google.com/citations?user=ug6E06wAAAAJ&hl=en"
+        class="subtitle-1"
         >Google Scholar</a
       >]
     </h2>
