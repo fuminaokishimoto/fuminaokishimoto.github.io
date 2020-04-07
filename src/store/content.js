@@ -20,7 +20,10 @@ export const getters = {
   getPublications(state) {
     return state.content.publications
   },
-  getLink(state) {
-    return state.content.link
+  getAward(state) {
+    return state.content.award
+  },
+  getGrant(state) {
+    return state.content.grant
   }
 }

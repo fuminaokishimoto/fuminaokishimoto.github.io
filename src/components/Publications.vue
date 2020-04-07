@@ -1,18 +1,21 @@
 <template>
-  <div>
-    <div>
-      <h2 class="display-title font-weight-regular">Publications</h2>
-    </div>
-    <div class="mx-4 d-flex-row">
-      <div v-for="(item, i) in publications" :key="i" class="d-flex-row my-4">
-        <div
-          class="title indigo--text text--darken-4 ideograph"
-          style="line-height: 1.4;"
-          v-html="item.title"
-        ></div>
-        <div class="ideograph" v-html="item.author"></div>
-        <div class="font-weight-light ideograph" v-html="item.info"></div>
-      </div>
+  <div class="d-flex flex-column">
+    <h2 class="title mb-2">Publications</h2>
+    <div
+      v-for="(item, i) in publications"
+      :key="i"
+      class="ml-2"
+      :class="{ 'mt-2': i !== 0 }"
+    >
+      <h3 class="subtitle-1 font-weight-medium">[{{ item.year }}]</h3>
+      <ol class="ml-4">
+        <li
+          v-for="(content, j) in item.contents"
+          :key="j"
+          class="text-justify"
+          v-html="content"
+        ></li>
+      </ol>
     </div>
   </div>
 </template>
@@ -29,9 +32,4 @@ export default {
 }
 </script>
 
-<style>
-.ideograph {
-  text-align: justify;
-  text-justify: inter-ideograph;
-}
-</style>
+<style></style>

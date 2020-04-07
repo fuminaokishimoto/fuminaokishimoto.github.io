@@ -1,51 +1,38 @@
 <template>
-  <v-layout column align-center>
-    <v-card color="#FAFAFA" width="876">
-      <div class="mx-6 mt-6 mb-4">
-        <h1 class="display-1 font-weight-regular">
-          {{ profile.name }}
-        </h1>
-      </div>
-      <v-divider class="mx-4"></v-divider>
-      <profile class="px-6"></profile>
-      <research-interest class="mx-6 mb-6"></research-interest>
-      <education class="mx-6 my-6"></education>
-      <professional-profile class="mx-6 my-6"></professional-profile>
-      <publications class="mx-6 my-6"></publications>
-      <my-link class="mx-6 mt-6"></my-link>
-      <div class="my-10"></div>
+  <div class="mx-8">
+    <v-card
+      class="mx-auto my-6 d-flex flex-column"
+      max-width="1000"
+      color="#fafafa"
+    >
+      <profile class="pt-6 pb-4 px-6"></profile>
+      <education class="py-4 px-6"></education>
+      <professional-profile class="py-4 px-6"></professional-profile>
+      <publications class="py-4 px-6"></publications>
+      <award class="py-4 px-6"></award>
+      <grant class="py-4 pb-8 px-6"></grant>
     </v-card>
-  </v-layout>
+  </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
 import Profile from '~/components/Profile'
-import ResearchInterest from '~/components/ResearchInterest'
 import Education from '~/components/Education'
 import ProfessionalProfile from '~/components/ProfessionalProfile'
 import Publications from '~/components/Publications'
-import Link from '~/components/Link'
+import Award from '~/components/Award'
+import Grant from '~/components/Grant'
 
 export default {
   components: {
     Profile,
-    ResearchInterest,
     Education,
     ProfessionalProfile,
     Publications,
-    MyLink: Link
-  },
-  computed: {
-    ...mapGetters({
-      profile: 'content/getProfile'
-    })
+    Award,
+    Grant
   }
 }
 </script>
 
-<style>
-p {
-  white-space: pre;
-}
-</style>
+<style></style>

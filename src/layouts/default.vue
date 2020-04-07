@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <v-content class="background">
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
   </v-app>
 </template>
@@ -17,4 +15,14 @@ export default {}
   background-image: url('~assets/background.png');
   background-repeat: repeat;
 }
+
+/* h1,
+h2,
+h3,
+ol,
+ul,
+div,
+li {
+  border: 1px solid black;
+} */
 </style>
