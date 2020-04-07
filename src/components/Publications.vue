@@ -1,6 +1,11 @@
 <template>
   <div class="d-flex flex-column">
-    <h2 class="title mb-2">Publications</h2>
+    <h2 class="title mb-2">
+      Publications [<a
+        href="https://scholar.google.com/citations?user=ug6E06wAAAAJ&hl=en"
+        >Google Scholar</a
+      >]
+    </h2>
     <div
       v-for="(item, i) in publications"
       :key="i"
