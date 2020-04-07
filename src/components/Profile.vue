@@ -21,11 +21,11 @@
             <div class="font-weight-medium" style="width: 60px;">Email:</div>
             <div>{{ profile.email }}</div>
           </div>
-          <div class="d-flex mt-1">
+          <div class="d-flex">
             <div class="font-weight-medium" style="width: 60px;">Office:</div>
             <div>{{ profile.office }}</div>
           </div>
-          <div class="d-flex mt-1">
+          <div class="d-flex">
             <div class="font-weight-medium" style="width: 60px;">Tel:</div>
             <div>{{ profile.tel }}</div>
           </div>
